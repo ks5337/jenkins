@@ -29,7 +29,7 @@ RUN yum install -y centos-release-scl-rh && \
     unlink /usr/bin/pack200 && \
     unlink /usr/bin/policytool && \
     unlink /usr/bin/rmid && \
-    unlink /usr/bin/rmiregistry && \
+    unlink /usr/bin/rmiregistry && \       
     unlink /usr/bin/servertool && \
     unlink /usr/bin/tnameserv && \
     unlink /usr/bin/unpack200 && \
